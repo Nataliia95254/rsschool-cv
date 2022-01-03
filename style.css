@@ -102,17 +102,21 @@ h2, h3 {
 
 
 footer {
-    background-image: url("./img /footer.jpeg");
-    display: flex;
+    background-image: url("./img /footer.jpeg");  
     width: 100%;
     height: 150px;
     background-repeat: no-repeat;
     background-size: 100%;
-    justify-content: space-around;
-    align-items: center;
+    
 }
 
 footer div a img{
     width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
