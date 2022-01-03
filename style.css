@@ -7,6 +7,7 @@
     line-height: 36px;
 }
 .header {
+    width: 100%;
     background-image: url("./img /pattern1.png");
     background-repeat: no-repeat;
     height: 300px;
@@ -53,10 +54,10 @@ h2, h3 {
     padding: 0;
 }
 .icon  {
-    width: 50px;
+    width: 35px;
     padding-right: 10px;
     position: relative;
-    top: 15px;
+    top: 10px;
 }
 
 .educstion {
@@ -77,6 +78,8 @@ h2, h3 {
     background-color: #e5e7eb;
     padding: 10px;
     margin-right: 20px;
+    height: 300px;
+    font-size: 18px;
     
 }
 
@@ -115,6 +118,7 @@ footer div a img{
 }
 
 nav {
+    padding-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
